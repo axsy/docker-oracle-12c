@@ -50,3 +50,5 @@ Run Oracle Database in isolated Docker container (map ports to different ones if
     Redo Buffers		   13848576 bytes
     Database mounted.
     Database opened.
+
+Passwords for the starter database for the **SYS**, **SYSTEM** and  **DBSNMP** are lowercased values **sys**, **system** and **dbsnmp**.
