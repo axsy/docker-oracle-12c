@@ -51,4 +51,19 @@ Run Oracle Database in isolated Docker container (map ports to different ones if
     Database mounted.
     Database opened.
 
+Now you can use SQL*Plus on Docker host OS to connect to Oracle Database:
+
+    $ sqlplus HR/hr@//127.0.0.1:1521/orcl.example.com
+    SQL*Plus: Release 12.1.0.2.0 Production on Sat Nov 19 02:54:46 2016
+
+    Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+    Last Successful login time: Sat Nov 19 2016 02:54:11 +03:00
+
+    Connected to:
+    Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+    With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options
+
+    SQL>
+
 Passwords for the starter database for the **SYS**, **SYSTEM** and  **DBSNMP** are lowercased values **sys**, **system** and **dbsnmp**.
